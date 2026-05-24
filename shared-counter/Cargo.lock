@@ -26,9 +26,9 @@ checksum = "7c02d123df017efcdfbd739ef81735b36c5ba83ec3c59c80a9d7ecc718f92e50"
 
 [[package]]
 name = "autocfg"
-version = "1.5.0"
+version = "1.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c08606f8c3cbf4ce6ec8e28fb0014a2c086708fe954eaa885384a6165172e7e8"
+checksum = "f2032f911046de80f0a198e0901378627c33f59ea0ac00e363d481118bd70a53"
 
 [[package]]
 name = "bitflags"
@@ -63,7 +63,7 @@ checksum = "1e748733b7cbc798e1434b6ac524f0c1ff2ab456fe201501e6497c8417a4fc33"
 [[package]]
 name = "cdm"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/contract-dependency-manager#317116392d5cc02cdd4c473344d042152fd2e680"
+source = "git+https://github.com/paritytech/contract-dependency-manager#031a3998be9c3cd2d9787b332929b6a04adcc87b"
 dependencies = [
  "cdm-macros",
 ]
@@ -71,7 +71,7 @@ dependencies = [
 [[package]]
 name = "cdm-macros"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/contract-dependency-manager#317116392d5cc02cdd4c473344d042152fd2e680"
+source = "git+https://github.com/paritytech/contract-dependency-manager#031a3998be9c3cd2d9787b332929b6a04adcc87b"
 dependencies = [
  "home",
  "proc-macro2",
@@ -99,9 +99,9 @@ dependencies = [
 
 [[package]]
 name = "const-hex"
-version = "1.19.0"
+version = "1.19.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "20d9a563d167a9cce0f94153382b33cb6eded6dfabff03c69ad65a28ea1514e0"
+checksum = "33e2a781ebdf4467d1428dc4593067825fb646f6871475098d8577421af73558"
 dependencies = [
  "cfg-if",
  "cpufeatures",
@@ -592,7 +592,7 @@ dependencies = [
 [[package]]
 name = "pvm-contract-macros"
 version = "0.3.0"
-source = "git+https://github.com/paritytech/cargo-pvm-contract?branch=charles%2Fcdm-integration#3f709e106f87ce39edf8dbf1d90fbe149bacac91"
+source = "git+https://github.com/paritytech/cargo-pvm-contract?branch=charles%2Fcdm-integration#d40dc8e22d1c34b23d9b0682de98cdcd5628fa5a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -604,7 +604,7 @@ dependencies = [
 [[package]]
 name = "pvm_contract"
 version = "0.3.0"
-source = "git+https://github.com/paritytech/cargo-pvm-contract?branch=charles%2Fcdm-integration#3f709e106f87ce39edf8dbf1d90fbe149bacac91"
+source = "git+https://github.com/paritytech/cargo-pvm-contract?branch=charles%2Fcdm-integration#d40dc8e22d1c34b23d9b0682de98cdcd5628fa5a"
 dependencies = [
  "alloy-primitives",
  "const_format",
@@ -778,9 +778,9 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.149"
+version = "1.0.150"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "83fc039473c5595ace860d8c4fafa220ff474b3fc6bfdb4293327f1a37e94d86"
+checksum = "e8014e44b4736ed0538adeecded0fce2a272f22dc9578a7eb6b2d9993c74cfb9"
 dependencies = [
  "itoa",
  "memchr",
